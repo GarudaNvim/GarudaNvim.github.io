@@ -4,10 +4,9 @@ site_url: https://garudanvim.github.io
 
 theme:
   name: material
-  logo: assets/logowbg.png
+  logo: assets/logo-wbg-white.png
   favicon: images/favicon32.png
   features:
-    - navigation.tabs
     - navigation.sections
     - toc.integrate
     - navigation.top
@@ -22,14 +21,24 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to light mode
-      primary: teal
-      accent: purple 
+      primary: black  # Softer, less harsh primary color
+      accent: amber  # A warmer accent for better contrast
+      background: '#121212'  # Darker background
+      surface: '#1E1E1E'  # Slightly lighter surface to differentiate sections
+      on-primary: 'white'  # Text color on primary elements
+      on-surface: 'white'  # Text color on general surfaces
     - scheme: default 
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode    
-      primary: teal
-      accent: lime
+      accent: orange
+
+nav:  
+  - Home: index.md
+  - Features: features.md
+  - Installation: installation.md
+  - Keymaps: keymaps.md
+  - Themes: themes.md
 
 plugins:
   - search
@@ -38,6 +47,9 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/GarudaNvim
+  metadata:
+      description: A minimal and powerful Neovim configuration for macOS and Linux.
+      keywords: Neovim, GarudaNvim, macOS, Linux, configuration, coding
 
 markdown_extensions:
   - pymdownx.highlight:
