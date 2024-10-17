@@ -2,10 +2,22 @@
 
 GarudaNvim allows you to switch between themes and customize the look of your editor.
 
-### 🎨 Default Themes
+### Default Themes
 - **Onedarkpro**: A sleek dark theme that enhances code visibility.
 
-### 🖌 Customizing Themes
+### Available Themes
+Pick the one you like most.
+
+- Dracula
+- Nordic
+- Tokyonight
+- Tokyodark
+- Catppuccin
+- Nyoom
+- Carbonfox
+- Doom-one
+
+### Customizing Themes
 To customize the theme, modify the respective configuration file at:
 `~/.config/nvim/lua/garudanvim/plugin_config/color_config/`
 

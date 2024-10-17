@@ -50,6 +50,13 @@ Normal mode is where you’ll spend most of your time in Neovim. These keymaps i
     map("n", "<S-l>", ":BufferNext<CR>", opts)
     ```
 
+- **Move Buffers**: Reorders the open buffers.
+    - `<S-i>`: Moves the current buffer to the right.
+    - `<S-u>`: Moves the current buffer to the left.
+    ```lua
+    map("n", "<S-i>", ":BufferMoveNext<CR>", opts)
+    ```
+
 - **Move Text Up and Down**: Shift entire lines of text up or down.
     - `<S-j>`: Move the current line down.
     - `<S-k>`: Move the current line up.

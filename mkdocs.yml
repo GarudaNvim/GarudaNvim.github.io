@@ -1,14 +1,17 @@
+# Project Information
 site_name: GarudaNvim
-
 site_url: https://garudanvim.github.io
+site_author: Priyanshu Ranjan
 
+# Configuration
 theme:
   name: material
-  logo: assets/logo-wbg-white.png
+  logo: assets/logo-dark.png
   favicon: images/favicon32.png
+  icon:
+    repo: simple/github
   features:
     - navigation.sections
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -33,6 +36,7 @@ theme:
         name: Switch to dark mode    
       accent: orange
 
+# Navigation
 nav:  
   - Home: index.md
   - Features: features.md
@@ -40,9 +44,11 @@ nav:
   - Keymaps: keymaps.md
   - Themes: themes.md
 
+# Plugins
 plugins:
   - search
 
+# Social and Metadata Information
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -51,6 +57,7 @@ extra:
       description: A minimal and powerful Neovim configuration for macOS and Linux.
       keywords: Neovim, GarudaNvim, macOS, Linux, configuration, coding
 
+# Extensions
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -68,5 +75,6 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+# Copyright
 copyright: |
   &copy; 2024 <a href="https://github.com/GarudaNvim"  target="_blank" rel="noopener">GarudaNvim</a>

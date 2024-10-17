@@ -1,6 +1,9 @@
 <div align="center">
   <h1>Welcome to GarudaNvim</h1>    
-  <img alt="GarudaNvim" src="assets/logo-wbg-white.png">
+  <img
+    alt="GarudaNvim"
+    src="assets/GarudaNvimWbg.png"
+  >
 </div>
 
 **GarudaNvim** is a fast and minimal Neovim configuration that empowers you to maximize productivity by utilizing efficient keyboard-based workflows. Inspired by the legendary speed and agility of Garuda, our configuration helps you code faster and navigate seamlessly.
@@ -19,7 +22,9 @@ Our vision for GarudaNvim is to provide a robust, customizable, and easily insta
 
 ---
 
-## Current Version: v1.0.0
+## Current Version 
+
+**v1.0.0** is the newly released version of GarudaNvim.
 
 🚀 **New Features in v1.0.0**:
 - Expanded OS support for Linux and macOS.
