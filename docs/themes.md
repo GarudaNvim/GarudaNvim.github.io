@@ -14,7 +14,7 @@ Pick the one you like most.
 - Tokyodark
 - Catppuccin
 - Nyoom
-- Carbonfox
+- Nightfox
 - Doom-one
 
 ### Customizing Themes

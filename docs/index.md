@@ -2,10 +2,10 @@
   <h1>Welcome to GarudaNvim</h1>    
   <img
     alt="GarudaNvim"
-    src="assets/GarudaNvimWbg.png"
+    src="assets/GarudaNvim.png"
   >
 </div>
-
+</br>
 **GarudaNvim** is a fast and minimal Neovim configuration that empowers you to maximize productivity by utilizing efficient keyboard-based workflows. Inspired by the legendary speed and agility of Garuda, our configuration helps you code faster and navigate seamlessly.
 
 - **Keyboard-Centric**: Everything is optimized to minimize the use of a mouse.
