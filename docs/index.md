@@ -24,10 +24,13 @@ Our vision for GarudaNvim is to provide a robust, customizable, and easily insta
 
 ## Current Version 
 
-**v1.0.0** is the newly released version of GarudaNvim.
+**v1.2.0** is the newly released version of GarudaNvim.
 
-🚀 **New Features in v1.0.0**:
-- Expanded OS support for Linux and macOS.
-- Integration with Lazy plugin manager.
-- NvimTree for file navigation.
-- New Onedarkpro colorscheme.
+🚀 **New Features**:
+
+- Telescope.
+- Project Management.
+- New Dashboard.
+- Colorschemes.
+
+Find it [here](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.2.0).
