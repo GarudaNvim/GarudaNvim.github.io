@@ -7,7 +7,7 @@ site_author: Priyanshu Ranjan
 theme:
   name: material
   logo: assets/logo-dark.png
-  favicon: images/favicon32.png
+  favicon: assets/favicon.png
   icon:
     repo: simple/github
   features:
