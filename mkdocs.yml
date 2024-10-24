@@ -46,6 +46,10 @@ nav:
   - Which-Key: whichkey.md
   - Themes: themes.md
 
+# Add GitHub link to the navbar
+repo_url: https://github.com/GarudaNvim
+repo_name: GitHub
+
 # Plugins
 plugins:
   - search
@@ -53,8 +57,9 @@ plugins:
 # Social and Metadata Information
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/GarudaNvim
+    - icon: fontawesome/solid/globe
+      link: https://github.com/GarudaNvim/GarudaNvim.github.io
+      name: Website Github
   metadata:
       description: A minimal and powerful Neovim configuration for macOS and Linux.
       keywords: Neovim, GarudaNvim, macOS, Linux, configuration, coding

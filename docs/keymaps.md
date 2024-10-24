@@ -1,18 +1,22 @@
 # Keymaps
 
-In Neovim, different modes allow users to interact with their text and environment in specific ways. GarudaNvim enhances this experience with custom keymaps tailored for efficient workflow ensuring fast navigation and editing. Here’s an overview of the keymaps provided in GarudaNvim.
+*Welcome to the land of keymaps, where every keystroke counts, and Neovim becomes your playground. We know you're here because you're tired of typing the same old commands a thousand times a day. Well, you've come to the right place! With GarudaNvim's custom keymaps, we’re putting your fingers on the fast lane to efficiency. But before you start flying through your code, remember: with great power comes great responsibility. Use these keybindings wisely, or you might just get too lazy to use the mouse again. No pressure, though.*
+
+Also, don't forget that *this is just the beginning.* After mastering these, head over to the **which-key** page—our beloved menu of shortcuts. Trust us, it’ll make you feel like a coding ninja, minus the actual ninja suit.*
 
 ### Neovim Modes
-- **Normal Mode** (`n`): The default mode for most actions, such as moving through text and performing edits.
-- **Insert Mode** (`i`): Where text is inserted into the buffer.
-- **Visual Mode** (`v`): Used for selecting and manipulating chunks of text.
-- **Visual Block Mode** (`x`): A block selection mode for columns of text.
-- **Terminal Mode** (`t`): Used within terminal windows in Neovim.
-- **Command Mode** (`c`): Where Ex commands are entered.
+- **Normal Mode** (`n`): The default mode for most actions, like navigating, editing, and breaking stuff (whoops).
+- **Insert Mode** (`i`): Where you go when you need to type things (or mess up an entire file).
+- **Visual Mode** (`v`): Selecting text to either copy, delete, or wonder why you selected it in the first place.
+- **Visual Block Mode** (`x`): For when you need to select columns of text and feel like you're hacking the matrix.
+- **Terminal Mode** (`t`): The mode where you're constantly reminded that a terminal lives inside Neovim. Trippy, right?
+- **Command Mode** (`c`): Where you talk to Neovim. Or maybe yell at it. No judgment.
+
+---
 
 ### General Setup
 
-- **Leader Key**: GarudaNvim remaps the space bar (`<Space>`) as the leader key. This key is used in combination with other keys to trigger custom commands efficiently. 
+- **Leader Key**: GarudaNvim uses the space bar (`<Space>`) as the leader key. It’s the most powerful key on your keyboard now, so treat it with respect. Here's how it's mapped:
     ```lua
     map("", "<Space>", "<Nop>", opts)
     vim.g.mapleader = " "
@@ -23,9 +27,9 @@ In Neovim, different modes allow users to interact with their text and environme
 
 ### Keymaps in Normal Mode
 
-Normal mode is where you’ll spend most of your time in Neovim. These keymaps improve navigation, buffer management, and text manipulation.
+Welcome to normal mode, where the magic happens, and where most of your day will be spent.
 
-- **Better Window Navigation**: Quickly switch between split windows using the control (`<C>`) key and directional keys.
+- **Better Window Navigation**: Say goodbye to confusing window setups. Move between windows with ease.
     - `<C-h>`: Move to the window on the left.
     - `<C-j>`: Move to the window below.
     - `<C-k>`: Move to the window above.
@@ -34,7 +38,7 @@ Normal mode is where you’ll spend most of your time in Neovim. These keymaps i
     map("n", "<C-h>", "<C-w>h", opts)
     ```
 
-- **Resize Windows with Arrows**: Use custom keybindings to resize windows without having to manually adjust them.
+- **Resize Windows**: Windows need resizing? No problem.
     - `<C-q>`: Decrease window height.
     - `<C-w>`: Increase window height.
     - `<C-a>`: Decrease window width.
@@ -43,55 +47,55 @@ Normal mode is where you’ll spend most of your time in Neovim. These keymaps i
     map("n", "<C-q>", ":resize -1<CR>", opts)
     ```
 
-- **Navigate Buffers**: Efficiently switch between open buffers.
+- **Navigate Buffers**: Cycle through your open buffers like a pro.
     - `<S-l>`: Move to the next buffer.
     - `<S-h>`: Move to the previous buffer.
     ```lua
     map("n", "<S-l>", ":BufferNext<CR>", opts)
     ```
 
-- **Move Buffers**: Reorders the open buffers.
-    - `<S-i>`: Moves the current buffer to the right.
-    - `<S-u>`: Moves the current buffer to the left.
+- **Move Buffers**: Reorganize your buffers in style.
+    - `<S-i>`: Move the current buffer to the right.
+    - `<S-u>`: Move the current buffer to the left.
     ```lua
     map("n", "<S-i>", ":BufferMoveNext<CR>", opts)
     ```
 
-- **Move Text Up and Down**: Shift entire lines of text up or down.
+- **Move Text Up and Down**: Because who needs to retype lines?
     - `<S-j>`: Move the current line down.
     - `<S-k>`: Move the current line up.
     ```lua
     map("n", "<S-j>", "<Esc>:m .+1<CR>==gi", opts)
     ```
 
-- **Quick Actions**: Handy shortcuts for common tasks.
-    - `<Esc>` or `q`: Clear search highlights.
-    - `<C-c>`: Copy the entire file content to the system clipboard.
-    - `d`: Delete text without copying it to the clipboard (so it doesn’t replace the current yank).
-    - `<Space>e`: Toggle the NvimTree file explorer.
+- **Quick Actions**: Be the action hero of your Neovim setup.
+    - `<Esc>` or `q`: Clear search highlights. 
+    - `<C-c>`: Copy the entire file content to the system clipboard. 
+    - `d`: Delete without yanking (yes, you can safely delete now).
+    - `<Space>e`: Toggle the NvimTree file explorer. 
     ```lua
     map("n", "<C-c>", "<cmd> %y+ <CR><CR>", opts)
     ```
 
-- **Go to Beginning and End of Line**: Simplify cursor movement within lines.
-    - `<C-e>`: Go to the end of the line.
-    - `<C-b>`: Go to the beginning of the line.
+- **Go to Beginning and End of Line**: Quick shortcuts for lazy cursor movers.
+    - `<C-i>`: Go to the beginning of the line.
+    - `<C-j>`: Go to the end of the line.
     ```lua
-    map("n", "<C-e>", "$", opts)
+    map("n", "<C-i>", "0", opts)
     ```
 
 ---
 
 ### Keymaps in Insert Mode
 
-Insert mode is for entering text, and these mappings help you navigate and exit this mode more quickly.
+Insert mode: for the brave, the bold, and those who actually need to type things.
 
-- **Exit Insert Mode**: A quick way to exit insert mode by typing `kj`.
+- **Exit Insert Mode**: Exit insert mode with the magic of `kj`. No more `Esc` key reaching!
     ```lua
     map("i", "kj", "<ESC>", opts)
     ```
 
-- **Move Within Insert Mode**: Use control + arrow keys to move the cursor while staying in insert mode.
+- **Move Within Insert Mode**: Navigate around while still in insert mode (yes, it's as cool as it sounds).
     - `<C-h>`: Move left.
     - `<C-l>`: Move right.
     - `<C-j>`: Move down.
@@ -100,30 +104,39 @@ Insert mode is for entering text, and these mappings help you navigate and exit 
     map("i", "<C-h>", "<Left>", opts)
     ```
 
+- **Go to Beginning and End of Line**: Quick shortcuts for lazy cursor movers inside insert mode.
+    - `<C-i>`: Go to the beginning of the line.
+    - `<C-j>`: Go to the end of the line.
+    ```lua
+    map("i", "<C-i>", "<ESC>^i", opts) -- beginning of line
+    ```
+
 ---
 
 ### Keymaps in Visual Mode
 
-Visual mode is for selecting text. GarudaNvim enhances this by allowing you to move and manipulate the selected text more easily.
+Visual mode: where selection happens, and text manipulation gets real.
 
-- **Indenting While Staying in Visual Mode**: Keep text selected while indenting left or right.
+- **Indenting While Staying in Visual Mode**: Keep your selection while indenting. Handy, right?
+    - `<`: Indents your selected line to the left
+    - `>`: Indents your selected line to the right
     ```lua
     map("v", "<", "<gv", opts)
     ```
 
-- **Move Text**: Shift selected text up or down in the file.
+- **Move Text**: Shift selected text up or down without losing your mind.
     - `<S-j>`: Move selected text down.
     - `<S-k>`: Move selected text up.
     ```lua
     map("v", "<S-j>", ":m .+1<CR>==", opts)
     ```
 
-- **Pasting Over Text**: When pasting over a selection, the selected text is not yanked, so you can paste the same content multiple times.
+- **Pasting Over Text**: Paste over text without yanking it to the void.
     ```lua
     map("v", "p", '"_dP', opts)
     ```
 
-- **Search and Replace**: Initiate a search and replace for the selected text.
+- **Replacement of Texts**: Replaces the selected text via `<C-r>` with a prompt for the new text (global, with confirmation for each instance).
     ```lua
     map("v", "<C-r>", '"hy:%s/<C-r>h//gc<left><left><left>', opts)
     ```
@@ -132,9 +145,9 @@ Visual mode is for selecting text. GarudaNvim enhances this by allowing you to m
 
 ### Keymaps in Visual Block Mode
 
-Visual block mode is especially useful for selecting columns of text or for editing multiple lines at once.
+For when you need to manipulate columns of text like a true hacker.
 
-- **Move Block of Text**: Shift a block of text up or down.
+- **Move Block of Text**: Push blocks of text around like it's no big deal.
     - `J`: Move the block down.
     - `K`: Move the block up.
     ```lua
@@ -145,5 +158,4 @@ Visual block mode is especially useful for selecting columns of text or for edit
 
 ### Additional Customization
 
-GarudaNvim allows you to modify or extend these keymaps based on your needs. You can easily add your own keymaps to further enhance your coding workflow.
-For a complete list of keymaps, check out the `keymaps.lua` file.
+GarudaNvim allows you to modify or extend these keymaps based on your workflow. We believe in the power of personalization. If these aren’t enough, feel free to dive into the `keymaps.lua` file and add more.
