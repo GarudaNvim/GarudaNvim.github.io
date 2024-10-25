@@ -55,7 +55,7 @@ plugins:
   - search
 
 extra_css:
-  - assets/extra.css
+  - assets/css/extra.css
 
 # Social and Metadata Information
 extra:

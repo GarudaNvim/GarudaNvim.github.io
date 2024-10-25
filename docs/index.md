@@ -18,7 +18,8 @@ Reimagining how you code!
 
 In the Hindu mythology, Garuda is more than just a mythical creature — it’s a symbol of speed, precision, and freedom. Often depicted as a powerful eagle soaring high above, Garuda is known for its ability to cover vast distances swiftly, with unwavering focus.
 
-Inspired by the legendary speed, agility and swiftness of Garuda (and, let’s face it, our collective disdain for reaching for the mouse every five seconds), the configuration helps you code faster and navigate seamlessly. Fly through the code like Garuda through the skies!
+Inspired by the legendary speed, agility and swiftness of Garuda (and, let’s face it, our collective disdain for reaching for the mouse every five seconds), the configuration helps you code faster and navigate seamlessly.</br>
+Fly through the code like Garuda through the skies!
 
 Here's what we have got for you!
 
@@ -32,7 +33,9 @@ It’s simple: speed, agility, and an obsession with keyboard shortcuts.
 - **Powerful Keymaps**: We believe that every key has a purpose (like your mistakes… just kidding!). A thoughtfully crafted keymap system that enhances your productivity.
 - **Cross-Platform**: Optimized for macOS and Linux. Sorry Windows fans, maybe someday. 😉
 
-With GarudaNvim, get ready to code faster, customize deeper, and maybe even impress your colleagues(and partner!) with how rarely you reach for the mouse.
+With GarudaNvim, get ready to code faster, customize deeper, and maybe even impress your colleagues (and partner!) with how rarely you reach for the mouse.
+
+Checkout the [Features](features.md) section for more info.
 
 Ready To Install? Click [here](installation.md)
 

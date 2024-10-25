@@ -1,4 +1,4 @@
-# Keybindings in GarudaNvim
+# **Keybindings in GarudaNvim**
 
 Welcome to the secret stash of keybindings that revolve around everyone's favorite key—the space key! If you thought the keymaps file was all there is to GarudaNvim’s superpowers, well, think again.
 

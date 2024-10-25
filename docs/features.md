@@ -1,4 +1,4 @@
-# Features of GarudaNvim
+# **Features of GarudaNvim**
 
 GarudaNvim is designed to provide a minimalist, yet highly efficient, Neovim experience. Here are some of the top features that make GarudaNvim stand out:
 

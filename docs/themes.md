@@ -1,4 +1,4 @@
-# Themes
+# **Themes**
 
 GarudaNvim allows you to switch between themes and customize the look of your editor.
 
