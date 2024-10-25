@@ -6,8 +6,8 @@ site_author: Priyanshu Ranjan
 # Configuration
 theme:
   name: material
-  logo: assets/logo-dark.png
-  favicon: assets/favicon.png
+  logo: assets/images/logo-dark.png
+  favicon: assets/images/favicon.png
   icon:
     repo: simple/github
   features:
@@ -39,8 +39,8 @@ theme:
 # Navigation
 nav:  
   - Home: index.md
-  - Features: features.md
   - Installation: installation.md
+  - Features: features.md
   - Plugins: plugins.md
   - Keymaps: keymaps.md
   - Which-Key: whichkey.md
@@ -53,6 +53,9 @@ repo_name: GitHub
 # Plugins
 plugins:
   - search
+
+extra_css:
+  - assets/extra.css
 
 # Social and Metadata Information
 extra:

@@ -1,8 +1,10 @@
 <div align="center">
-  <h1>Welcome to GarudaNvim</h1>    
+  <h1>
+    <spam><b>Welcome to GarudaNvim</b></spam>
+  </h1>    
   <img
     alt="GarudaNvim Logo"
-    src="assets/GarudaNvim.png"
+    src="assets/images/GarudaNvim.png"
   >
 </div>
 
@@ -55,7 +57,7 @@ Because let's be honest – you didn’t really want to write all those colorsch
 
 ---
 
-## **Support GarudaNvim**
+## **Support Us**
 
 If GarudaNvim has saved you from a dozen mouse-induced wrist injuries, consider giving it a star ⭐ on GitHub! It’s a small click for you, but it means the world to us.
 
