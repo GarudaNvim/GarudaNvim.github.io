@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <spam class="welcome"><b>Welcome to GarudaNvim</b></spam>
+    <span class="mh-color h-font">Welcome to GarudaNvim</span>
   </h1>    
   <img
     alt="GarudaNvim Logo"
@@ -10,7 +10,7 @@
 
 </br>
 
-## **Introduction**
+## <span class="sh-font msh-color">Introduction</span>
 
 Reimagining how you code!
 
@@ -25,7 +25,7 @@ Here's what we have got for you!
 
 ---
 
-## **Why GarudaNvim?** 
+## <span class="sh-font msh-color">Why GarudaNvim?</span>
 
 It’s simple: speed, agility, and an obsession with keyboard shortcuts.
 
@@ -41,7 +41,7 @@ Ready To Install? Click [here](installation.md)
 
 ---
 
-## **Vision**
+## <span class="sh-font msh-color">Vision</span>
 
 Imagine a world where configuring your editor doesn’t feel like defusing a bomb. GarudaNvim’s mission is to bring you a robust, ready-to-go Neovim setup that’s customizable, lightweight, and fast enough to rival even the fanciest GUI editors. Whether you’re a seasoned Vim wizard or a Neovim newcomer, GarudaNvim provides the tools and configurations needed for an exceptional coding experience.
 
@@ -49,7 +49,7 @@ GarudaNvim isn’t just a Neovim config – it’s a philosophy. It’s about co
 
 ---
 
-## **Latest Version: v1.2.0**
+## <span class="sh-font msh-color">Latest Version: v1.2.0</span>
 
 Yes, we keep it fresh! **v1.2.0** is out and packing some serious heat:
 
@@ -60,7 +60,7 @@ Because let's be honest – you didn’t really want to write all those colorsch
 
 ---
 
-## **Support Us**
+## <span class="sh-font msh-color">Support Us</span>
 
 If GarudaNvim has saved you from a dozen mouse-induced wrist injuries, consider giving it a star ⭐ on GitHub! It’s a small click for you, but it means the world to us.
 
@@ -68,13 +68,13 @@ And if you’re feeling extra generous, you can [sponsor the project](https://gi
 
 ---
 
-## **Acknowledgements**
+## <span class="sh-font msh-color">Acknowledgements</span>
 
 Big thanks to [Neovim](https://github.com/neovim/neovim) for making terminal-based coding awesome (and for the endless possibilities of `:q!`). And to the creators of all the plugins we rely on – we owe you a whole lot of coffees and an embarrassing number of pull requests.
 
 ---
 
-## **Last Words...**
+## <span class="sh-font msh-color">Last Words...</span>
 
 Happy Coding with GarudaNvim 💻 </br>
 Welcome to the Cult (oh sorry, I meant Club)

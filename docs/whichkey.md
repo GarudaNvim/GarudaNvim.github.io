@@ -1,5 +1,5 @@
 <div>
-    <h1><span class="pages-heading"><b>Which-Key Keybindings</b></span></h1>    
+    <h1><span class="th-color h-font"><b>Which-Key Keybindings</b></span></h1>    
 </div>
 
 Welcome to the secret stash of keybindings that revolve around everyone's favorite key—the space key! If you thought the keymaps file was all there is to GarudaNvim’s superpowers, well, think again.
@@ -8,7 +8,7 @@ This is the page where we take the humble `space` key and transform it into your
 
 Take a deep breath, grab your coffee, and dive in—each keybinding has been placed with the precision of a seasoned developer trying to avoid a merge conflict. You might not even realize how badly you needed these shortcuts until you try them. Seriously, give them a shot. And don’t worry, the space key isn’t overloaded like your browser’s open tabs. It’s just filled with shortcuts that will make you wonder how you ever coded without them.
 
-## Keybindings List
+## <span class="sh-font tsh-color">Keybindings List</span>
 
 ### General Shortcuts
 - `<Space> e`: Toggle NvimTree (File Explorer)
@@ -85,7 +85,7 @@ Take a deep breath, grab your coffee, and dive in—each keybinding has been pla
 - `<Space> z t`: Switch colorschemes using Telescope
 - `<Space> z h`: Check Neovim health
 
-## Additional Notes from the Which-Key Setup
+## <span class="sh-font tsh-color">Additional Notes from the Which-Key Setup</span>
 
 The **Which-Key** plugin has been configured to provide a clear and helpful interface for key mappings, enhancing productivity with the following features:
 

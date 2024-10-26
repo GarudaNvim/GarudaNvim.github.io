@@ -1,10 +1,10 @@
 <div>
-    <h1><span class="pages-heading"><b>Installation</b></span></h1>    
+    <h1><span class="th-color h-font"><b>Installation</b></span></h1>    
 </div>
 
 Installing GarudaNvim is a breeze. Follow the steps below to get GarudaNvim up and running on your machine.
 
-## Installation Command
+## <span class="sh-font tsh-color">Installation Command</span>
 
 Run the following command to install GarudaNvim on your system:
 
@@ -17,7 +17,7 @@ rm -f installGarudaNvim.sh
 
 </br>
 
-## Uninstallation
+## <span class="sh-font tsh-color">Uninstallation</span>
 
 To uninstall GarudaNvim, use the command below:
 

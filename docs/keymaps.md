@@ -1,12 +1,12 @@
 <div>
-    <h1><span class="pages-heading"><b>Keymaps</b></span></h1>    
+    <h1><span class="th-color h-font"><b>Keymaps</b></span></h1>    
 </div>
 
 *Welcome to the land of keymaps, where every keystroke counts, and Neovim becomes your playground. We know you're here because you're tired of typing the same old commands a thousand times a day. Well, you've come to the right place! With GarudaNvim's custom keymaps, we’re putting your fingers on the fast lane to efficiency. But before you start flying through your code, remember: with great power comes great responsibility. Use these keybindings wisely, or you might just get too lazy to use the mouse again. No pressure, though.*
 
 Also, don't forget that *this is just the beginning.* After mastering these, head over to the **which-key** page—our beloved menu of shortcuts. Trust us, it’ll make you feel like a coding ninja, minus the actual ninja suit.*
 
-### Neovim Modes
+## <span class="sh-font tsh-color">Neovim Modes</span>
 - **Normal Mode** (`n`): The default mode for most actions, like navigating, editing, and breaking stuff (whoops).
 - **Insert Mode** (`i`): Where you go when you need to type things (or mess up an entire file).
 - **Visual Mode** (`v`): Selecting text to either copy, delete, or wonder why you selected it in the first place.
@@ -16,7 +16,7 @@ Also, don't forget that *this is just the beginning.* After mastering these, hea
 
 ---
 
-### General Setup
+## <span class="sh-font tsh-color">General Setup</span>
 
 - **Leader Key**: GarudaNvim uses the space bar (`<Space>`) as the leader key. It’s the most powerful key on your keyboard now, so treat it with respect. Here's how it's mapped:
     ```lua
@@ -27,7 +27,7 @@ Also, don't forget that *this is just the beginning.* After mastering these, hea
 
 ---
 
-### Keymaps in Normal Mode
+## <span class="sh-font tsh-color">Keymaps in Normal Mode</span>
 
 Welcome to normal mode, where the magic happens, and where most of your day will be spent.
 
@@ -88,7 +88,7 @@ Welcome to normal mode, where the magic happens, and where most of your day will
 
 ---
 
-### Keymaps in Insert Mode
+## <span class="sh-font tsh-color">Keymaps in Insert Mode</span>
 
 Insert mode: for the brave, the bold, and those who actually need to type things.
 
@@ -115,7 +115,7 @@ Insert mode: for the brave, the bold, and those who actually need to type things
 
 ---
 
-### Keymaps in Visual Mode
+## <span class="sh-font tsh-color">Keymaps in Visual Mode</span>
 
 Visual mode: where selection happens, and text manipulation gets real.
 
@@ -145,7 +145,7 @@ Visual mode: where selection happens, and text manipulation gets real.
 
 ---
 
-### Keymaps in Visual Block Mode
+## <span class="sh-font tsh-color">Keymaps in Visual Block Mode</span>
 
 For when you need to manipulate columns of text like a true hacker.
 
@@ -158,6 +158,6 @@ For when you need to manipulate columns of text like a true hacker.
 
 ---
 
-### Additional Customization
+## <span class="sh-font tsh-color">Additional Customization</span>
 
 GarudaNvim allows you to modify or extend these keymaps based on your workflow. We believe in the power of personalization. If these aren’t enough, feel free to dive into the `keymaps.lua` file and add more.

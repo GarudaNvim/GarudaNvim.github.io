@@ -1,15 +1,64 @@
-.welcome {
+/* h --> heading */
+/* sh --> sub heading */
+
+/* mh --> main heading */
+/* msh --> main sub heading */
+
+/* th --> topic heading */
+/* tsh --> topic sub heading */
+
+.h-font {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.sh-font {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.mh-color {
     background: linear-gradient(to right, #0076D8, #FF5CFF); /* Gradient colors */
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.pages-heading {
+.msh-color {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom right, #76b6ef, #d597e8, #f8919a);
+}
+
+/* Light mode color for .msh-color */
+[data-md-color-scheme="default"] .msh-color {
+    background-image: linear-gradient(to bottom right, #1b86e4, #b343d6, #f33f4e);
+}
+
+.th-color {
     background: linear-gradient(to right, #FF5C5C, #FF9B21); /* Gradient colors */
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.sub-heading {
-    color: orange;
+.tsh-color {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /*background-image: linear-gradient(to bottom right, #FFC55C, #F29C9E, #FFFF8A);*/
+    background-image: linear-gradient(to bottom right, #ffd9b3, #ffa64d, #ffd9b3);
+}
+
+/* Light mode color for .tsh-color */
+[data-md-color-scheme="default"] .tsh-color {
+    background-image: linear-gradient(to bottom right, #994d00, #ff9933, #994d00);
+}
+
+.pl-font {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.blue-color {
+    color: #4d8dc5;
 }
