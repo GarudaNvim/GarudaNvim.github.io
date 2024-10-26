@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    <spam><b>Welcome to GarudaNvim</b></spam>
+    <spam class="welcome"><b>Welcome to GarudaNvim</b></spam>
   </h1>    
   <img
     alt="GarudaNvim Logo"

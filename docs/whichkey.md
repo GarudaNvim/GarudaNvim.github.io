@@ -1,4 +1,6 @@
-# **Keybindings in GarudaNvim**
+<div>
+    <h1><span class="pages-heading"><b>Which-Key Keybindings</b></span></h1>    
+</div>
 
 Welcome to the secret stash of keybindings that revolve around everyone's favorite key—the space key! If you thought the keymaps file was all there is to GarudaNvim’s superpowers, well, think again.
 

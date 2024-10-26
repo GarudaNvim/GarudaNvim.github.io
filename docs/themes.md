@@ -1,4 +1,6 @@
-# **Themes**
+<div>
+    <h1><span class="pages-heading"><b>Themes</b></span></h1>    
+</div>
 
 GarudaNvim allows you to switch between themes and customize the look of your editor.
 
@@ -13,9 +15,7 @@ Pick the one you like most.
 - Tokyonight
 - Tokyodark
 - Catppuccin
-- Nyoom
 - Nightfox
-- Doom-one
 
 ### Customizing Themes
 To customize the theme, modify the respective configuration file at:

@@ -1,8 +1,10 @@
-# **Installation Guide**
+<div>
+    <h1><span class="pages-heading"><b>Installation</b></span></h1>    
+</div>
 
 Installing GarudaNvim is a breeze. Follow the steps below to get GarudaNvim up and running on your machine.
 
-### Installation Command
+## Installation Command
 
 Run the following command to install GarudaNvim on your system:
 
@@ -15,8 +17,10 @@ rm -f installGarudaNvim.sh
 
 </br>
 
-### Uninstallation
+## Uninstallation
+
 To uninstall GarudaNvim, use the command below:
+
 ```sh
 LATEST=$(curl -s https://api.github.com/repos/GarudaNvim/Installer/releases/latest | grep '"tag_name"' | cut -d '"' -f 4)
 wget -q https://raw.githubusercontent.com/GarudaNvim/Installer/$LATEST/uninstallGarudaNvim.sh

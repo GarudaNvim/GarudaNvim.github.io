@@ -1,5 +1,15 @@
-spam {
+.welcome {
     background: linear-gradient(to right, #0076D8, #FF5CFF); /* Gradient colors */
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.pages-heading {
+    background: linear-gradient(to right, #FF5C5C, #FF9B21); /* Gradient colors */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sub-heading {
+    color: orange;
 }

@@ -1,4 +1,6 @@
-# **Keymaps**
+<div>
+    <h1><span class="pages-heading"><b>Keymaps</b></span></h1>    
+</div>
 
 *Welcome to the land of keymaps, where every keystroke counts, and Neovim becomes your playground. We know you're here because you're tired of typing the same old commands a thousand times a day. Well, you've come to the right place! With GarudaNvim's custom keymaps, we’re putting your fingers on the fast lane to efficiency. But before you start flying through your code, remember: with great power comes great responsibility. Use these keybindings wisely, or you might just get too lazy to use the mouse again. No pressure, though.*
 

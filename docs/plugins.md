@@ -1,4 +1,6 @@
-# **Plugins**
+<div>
+    <h1><span class="pages-heading"><b>Plugins</b></span></h1>    
+</div>
 
 GarudaNvim comes pre-installed with a range of powerful plugins to maximize productivity, enhance workflow, and streamline your Neovim experience. Below is a list of the most important plugins included in GarudaNvim, ranked by their significance.
 
