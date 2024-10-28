@@ -20,21 +20,18 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: slate
+    - scheme: slate # dark theme
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/weather-sunny 
         name: Switch to light mode
-      primary: black  # Softer, less harsh primary color
-      accent: amber  # A warmer accent for better contrast
-      background: '#121212'  # Darker background
-      surface: '#1E1E1E'  # Slightly lighter surface to differentiate sections
-      on-primary: 'white'  # Text color on primary elements
-      on-surface: 'white'  # Text color on general surfaces
-    - scheme: default 
+      primary: black
+      accent: amber
+    - scheme: default # light theme
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to dark mode    
-      accent: orange
+      primary: indigo
+      accent: deep orange
 
 # Navigation
 nav:  

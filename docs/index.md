@@ -3,12 +3,18 @@
     <span class="mh-color h-font">Welcome to GarudaNvim</span>
   </h1>    
   <img
-    alt="GarudaNvim Logo"
-    src="assets/images/GarudaNvim.png"
+    id="garuda-logo-dark"
+    class="garuda-logo"
+    alt="GarudaNvim Logo Dark"
+    src="assets/images/GN_Dark.png#only-dark"
+  >
+  <img
+    id="garuda-logo-light"
+    class="garuda-logo"
+    alt="GarudaNvim Logo Light"
+    src="assets/images/GN_Light.png#only-light"
   >
 </div>
-
-</br>
 
 ## <span class="sh-font msh-color">Introduction</span>
 
