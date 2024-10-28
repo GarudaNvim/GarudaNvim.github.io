@@ -27,3 +27,6 @@ wget -q https://raw.githubusercontent.com/GarudaNvim/Installer/$LATEST/uninstall
 chmod +x uninstallGarudaNvim.sh && { ./uninstallGarudaNvim.sh } || { echo }
 rm -f uninstallGarudaNvim.sh
 ```
+</br>
+
+For more information on the script used for Installation (and Uninstallation), checkout our [Installer Repo](https://github.com/GarudaNvim/Installer)

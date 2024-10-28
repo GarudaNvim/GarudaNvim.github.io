@@ -2,9 +2,9 @@
     <h1><span class="th-color h-font"><b>Keymaps</b></span></h1>    
 </div>
 
-*Welcome to the land of keymaps, where every keystroke counts, and Neovim becomes your playground. We know you're here because you're tired of typing the same old commands a thousand times a day. Well, you've come to the right place! With GarudaNvim's custom keymaps, we’re putting your fingers on the fast lane to efficiency. But before you start flying through your code, remember: with great power comes great responsibility. Use these keybindings wisely, or you might just get too lazy to use the mouse again. No pressure, though.*
+Welcome to the land of keymaps, where every keystroke counts, and Neovim becomes your playground. We know you're here because you're tired of typing the same old commands a thousand times a day. Well, you've come to the right place! With GarudaNvim's custom keymaps, we’re putting your fingers on the fast lane to efficiency. But before you start flying through your code, remember: with great power comes great responsibility. Use these keybindings wisely, or you might just get too lazy to use the mouse again. No pressure, though.
 
-Also, don't forget that *this is just the beginning.* After mastering these, head over to the **which-key** page—our beloved menu of shortcuts. Trust us, it’ll make you feel like a coding ninja, minus the actual ninja suit.*
+Also, don't forget that *this is just the beginning.* After mastering these, head over to the **[which-key](whichkey.md)** page—our beloved menu of shortcuts. Trust us, it’ll make you feel like a coding ninja, minus the actual ninja suit.*
 
 ## <span class="sh-font tsh-color">Neovim Modes</span>
 - **Normal Mode** (`n`): The default mode for most actions, like navigating, editing, and breaking stuff (whoops).

@@ -83,6 +83,6 @@ Big thanks to [Neovim](https://github.com/neovim/neovim) for making terminal-bas
 ## <span class="sh-font msh-color">Last Words...</span>
 
 Happy Coding with GarudaNvim 💻 </br>
-Welcome to the Cult (oh sorry, I meant Club)
+Welcome to the Cult (umm, I meant Club :P)
 
-P.S. – This project is the brainchild of **Priyanshu Ranjan**, a final-year student at **IIT Kharagpur**, and he’s poured his heart (and far too many late-night and exam hours) into it.
+P.S. – This project is the brainchild of **Priyanshu Ranjan**, a final-year student at **IIT Kharagpur**, and he’s poured his heart (and far too many late-night hours) into it.
