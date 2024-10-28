@@ -77,3 +77,15 @@ To tweak an existing theme, modify the respective configuration file at:
 ```
 
 In this file, you can change colors, contrasts, and more to match your preference.
+
+<div class="navigation">
+    <a href="/whichkey" class="nav-link">
+        <div class="nav-content">
+            <span class="arrow">⬅️</span>
+            <div class="nav-text left">
+                <span class="label">Previous</span>
+                <span class="page-name">Which-Key</span>
+            </div>
+        </div>
+    </a>
+</div>

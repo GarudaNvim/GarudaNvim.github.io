@@ -36,7 +36,7 @@
 }
 
 .th-color {
-    background: linear-gradient(to right, #FF5C5C, #FF9B21); /* Gradient colors */
+    background: linear-gradient(to top, #FF5C5C, #FF9B21); /* Gradient colors */
     -webkit-background-clip: text;
     color: transparent;
 }

@@ -86,3 +86,15 @@ Happy Coding with GarudaNvim 💻 </br>
 Welcome to the Cult (umm, I meant Club :P)
 
 P.S. – This project is the brainchild of **Priyanshu Ranjan**, a final-year student at **IIT Kharagpur**, and he’s poured his heart (and far too many late-night hours) into it.
+
+<div class="navigation index">
+    <a href="/installation" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Installation</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
+</div>

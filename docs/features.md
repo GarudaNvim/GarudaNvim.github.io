@@ -45,3 +45,24 @@ GarudaNvim is more than just another Neovim setup – it’s a finely tuned mach
 ---
 
 Take GarudaNvim for a spin, and you’ll see – it’s the Neovim setup you didn’t know you needed. It’s efficient, it’s powerful, and yes, it’s a bit sarcastic. But when you’re coding at warp speed, you’ll get it.
+
+<div class="navigation">
+    <a href="/installation" class="nav-link">
+        <div class="nav-content">
+            <span class="arrow">⬅️</span>
+            <div class="nav-text left">
+                <span class="label">Previous</span>
+                <span class="page-name">Installation</span>
+            </div>
+        </div>
+    </a>
+    <a href="/plugins" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Plugins</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
+</div>

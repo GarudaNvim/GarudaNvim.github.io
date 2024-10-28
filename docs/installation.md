@@ -30,3 +30,24 @@ rm -f uninstallGarudaNvim.sh
 </br>
 
 For more information on the script used for Installation (and Uninstallation), checkout our [Installer Repo](https://github.com/GarudaNvim/Installer)
+
+<div class="navigation">
+    <a href="/" class="nav-link">
+        <div class="nav-content">
+            <span class="arrow">⬅️</span>
+            <div class="nav-text left">
+                <span class="label">Previous</span>
+                <span class="page-name">Home</span>
+            </div>
+        </div>
+    </a>
+    <a href="/features" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Features</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
+</div>

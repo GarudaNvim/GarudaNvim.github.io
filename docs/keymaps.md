@@ -161,3 +161,24 @@ For when you need to manipulate columns of text like a true hacker.
 ## <span class="sh-font tsh-color">Additional Customization</span>
 
 GarudaNvim allows you to modify or extend these keymaps based on your workflow. We believe in the power of personalization. If these aren’t enough, feel free to dive into the `keymaps.lua` file and add more.
+
+<div class="navigation">
+    <a href="/plugins" class="nav-link">
+        <div class="nav-content">
+            <span class="arrow">⬅️</span>
+            <div class="nav-text left">
+                <span class="label">Previous</span>
+                <span class="page-name">Plugins</span>
+            </div>
+        </div>
+    </a>
+    <a href="/whichkey" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Which-Key</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
+</div>

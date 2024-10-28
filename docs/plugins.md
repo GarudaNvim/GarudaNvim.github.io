@@ -133,3 +133,24 @@ Plenary is a library of common utilities used by many Neovim plugins. It provide
 ---
 
 These plugins collectively enhance the functionality and workflow in GarudaNvim, making it a highly efficient and customizable Neovim distribution.
+
+<div class="navigation">
+    <a href="/features" class="nav-link">
+        <div class="nav-content">
+            <span class="arrow">⬅️</span>
+            <div class="nav-text left">
+                <span class="label">Previous</span>
+                <span class="page-name">Features</span>
+            </div>
+        </div>
+    </a>
+    <a href="/keymaps" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Keymaps</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
+</div>

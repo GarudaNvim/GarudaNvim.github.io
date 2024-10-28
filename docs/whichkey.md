@@ -99,3 +99,24 @@ The setup also includes scroll mapping (`<c-d>` to scroll down, `<c-u>` to scrol
 ---
 
 This should provide a complete overview of your keybindings and additional details from your `which-key` configuration in a Markdown-friendly format.
+
+<div class="navigation">
+    <a href="/keymaps" class="nav-link">
+        <div class="nav-content">
+            <span class="arrow">⬅️</span>
+            <div class="nav-text left">
+                <span class="label">Previous</span>
+                <span class="page-name">Keymaps</span>
+            </div>
+        </div>
+    </a>
+    <a href="/themes" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Themes</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
+</div>
