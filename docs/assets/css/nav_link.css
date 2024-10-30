@@ -12,7 +12,9 @@
 
 .nav-link {
     text-decoration: none;
-    padding: 0.7rem;
+    padding: 0.6rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.5rem;
     border: 3px solid;
     border-radius: 23px;
     border-color: #3B3B3B;
@@ -68,25 +70,25 @@
 .left .label,
 .left .page-name {
     display: block;
-    padding-left: 22px;
+    padding-left: 17px;
 }
 
 .right .label,
 .right .page-name {
     display: block; /* Force items onto separate lines */
-    padding-right: 20px;
+    padding-right: 17px;
 
 }
 
 /*Font sizes*/
 .arrow {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .label {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 .page-name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }

@@ -88,4 +88,13 @@ In this file, you can change colors, contrasts, and more to match your preferenc
             </div>
         </div>
     </a>
+    <a href="/codeofconduct" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Code of Conduct</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
 </div>

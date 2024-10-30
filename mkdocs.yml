@@ -42,6 +42,7 @@ nav:
   - Keymaps: keymaps.md
   - Which-Key: whichkey.md
   - Themes: themes.md
+  - Code of Conduct: codeofconduct.md
 
 # Add GitHub link to the navbar
 repo_url: https://github.com/GarudaNvim
