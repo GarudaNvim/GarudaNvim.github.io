@@ -57,10 +57,15 @@ GarudaNvim isn’t just a Neovim config – it’s a philosophy. It’s about co
 
 ## <span class="sh-font msh-color">Latest Version: v1.2.0</span>
 
-Yes, we keep it fresh! **v1.2.0** is out and packing some serious heat:
+Yes, we keep it fresh! **v1.3.0** is out with some amazing udpates:
 
-- **New Features**: Telescope, Project Management, an all-new dashboard, and more color schemes than you can shake a stick at.
-- **Where to Find It**: [GarudaNvim Releases](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.2.0)
+- **New Features**: Which-Key, Terminal Management, Lazygit, Updated Installer and more color schemes for everyone.
+    - Streamlined keybindings with **WhichKey**
+    - Versatile Terminal Management with **ToggleTerm**
+    - Enhanced git functionality with **Lazygit**
+    - Intelligent new **Installer**
+    - More **Colorschemes** so that no one feels left out
+- **Where to Find It**: [GarudaNvim Releases](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.3.0)
 
 Because let's be honest – you didn’t really want to write all those colorscheme lines yourself, did you?
 

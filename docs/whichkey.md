@@ -14,7 +14,7 @@ Take a deep breath, grab your coffee, and dive in—each keybinding has been pla
 - `<Space> e`: Toggle NvimTree (File Explorer)
 - `<Space> N`: Open a new buffer
 - `<Space> s`: Save the current buffer
-- `<Space> q`: Quit Neovim
+- `<Space> q`: Quit GarudaNvim
 - `<Space> w`: Close the current buffer
 - `<Space> f`: Find files using Telescope
 - `<Space> p`: Open recent projects
@@ -83,7 +83,7 @@ Take a deep breath, grab your coffee, and dive in—each keybinding has been pla
 
 ### Setup Related Shortcuts
 - `<Space> z t`: Switch colorschemes using Telescope
-- `<Space> z h`: Check Neovim health
+- `<Space> z h`: Check GarudaNvim health
 
 ## <span class="sh-font tsh-color">Additional Notes from the Which-Key Setup</span>
 

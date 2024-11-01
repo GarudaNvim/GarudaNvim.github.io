@@ -11,7 +11,7 @@ GarudaNvim comes pre-installed with a range of powerful plugins to maximize prod
 **File Explorer**
 
 **Repository:** [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)  
-A highly efficient file explorer that integrates seamlessly into Neovim. With nvim-tree, you can navigate your project files and directories quickly, making file management much easier. It's designed to be fast and responsive, perfect for keyboard-based navigation.
+A highly efficient file explorer that integrates seamlessly into GarudaNvim. With nvim-tree, you can navigate your project files and directories quickly, making file management much easier. It's designed to be fast and responsive, perfect for keyboard-based navigation.
 
 ---
 
@@ -29,7 +29,7 @@ Telescope is a flexible and feature-rich fuzzy finder. It allows you to quickly 
 **Tabline**
 
 **Repository:** [romgrk/barbar.nvim](https://github.com/romgrk/barbar.nvim)  
-Barbar provides a sleek tabline that allows easy navigation between buffers in Neovim. Its design complements the overall interface, making buffer management intuitive and visually appealing.
+Barbar provides a sleek tabline that allows easy navigation between buffers in GarudaNvim. Its design complements the overall interface, making buffer management intuitive and visually appealing.
 
 ---
 
@@ -38,7 +38,7 @@ Barbar provides a sleek tabline that allows easy navigation between buffers in N
 **Statusline**
 
 **Repository:** [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)  
-Lualine is a fast, lightweight statusline plugin for Neovim, offering flexibility in customizing the appearance of the statusline. It displays essential information like file type, encoding, and current git branch.
+Lualine is a fast, lightweight statusline plugin for GarudaNvim, offering flexibility in customizing the appearance of the statusline. It displays essential information like file type, encoding, and current git branch.
 
 ---
 
@@ -47,7 +47,7 @@ Lualine is a fast, lightweight statusline plugin for Neovim, offering flexibilit
 **Dashboard**
 
 **Repository:** [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim)  
-Alpha provides a customizable dashboard that appears when you start Neovim. You can configure it with shortcuts, recent files, and other useful information, making it a perfect landing page for your workflow.
+Alpha provides a customizable dashboard that appears when you start GarudaNvim. You can configure it with shortcuts, recent files, and other useful information, making it a perfect landing page for your workflow.
 
 ---
 
@@ -74,7 +74,7 @@ Which-key helps you learn and remember keybindings by displaying available key m
 **Git Integration**
 
 **Repository:** [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)  
-Gitsigns displays git status indicators in the sign column, allowing you to view changes to files, stages, and commits directly in Neovim. It enhances the Neovim experience by integrating git-related information seamlessly.
+Gitsigns displays git status indicators in the sign column, allowing you to view changes to files, stages, and commits directly in GarudaNvim. It enhances the GarudaNvim experience by integrating git-related information seamlessly.
 
 ---
 
@@ -83,7 +83,7 @@ Gitsigns displays git status indicators in the sign column, allowing you to view
 **Terminal Management**
 
 **Repository:** [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)  
-Toggleterm makes managing multiple terminal instances within Neovim easy. It allows you to create and toggle between terminals, providing a seamless terminal experience inside your editor.
+Toggleterm makes managing multiple terminal instances within GarudaNvim easy. It allows you to create and toggle between terminals, providing a seamless terminal experience inside your editor.
 
 ---
 
@@ -92,7 +92,7 @@ Toggleterm makes managing multiple terminal instances within Neovim easy. It all
 **Git Interface**
 
 **Repository:** [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)  
-This plugin integrates the popular LazyGit terminal UI into Neovim, enabling you to manage git repositories with a visual interface. It simplifies complex git operations while keeping you inside Neovim.
+This plugin integrates the popular LazyGit terminal UI into GarudaNvim, enabling you to manage git repositories with a visual interface. It simplifies complex git operations while keeping you inside GarudaNvim.
 
 ---
 
@@ -128,7 +128,7 @@ Telescope-live-grep-args allows you to pass arguments to `live_grep`, providing 
 **Utility Library**
 
 **Repository:** [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)  
-Plenary is a library of common utilities used by many Neovim plugins. It provides essential functions such as asynchronous programming support and file manipulation utilities, making plugin development easier.
+Plenary is a library of common utilities used by many GarudaNvim plugins. It provides essential functions such as asynchronous programming support and file manipulation utilities, making plugin development easier.
 
 ---
 
