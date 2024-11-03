@@ -20,7 +20,7 @@
 
 Reimagining how you code!
 
-**GarudaNvim** – the Neovim configuration you didn’t know you needed, but now you’ll wonder how you ever lived without it. Say goodbye to excessive mouse-clicking and embrace the Zen of keyboard-powered coding.
+**[GarudaNvim](https://github.com/GarudaNvim/GarudaNvim)** – the Neovim configuration you didn’t know you needed, but now you’ll wonder how you ever lived without it. Say goodbye to excessive mouse-clicking and embrace the Zen of keyboard-powered coding.
 
 In the Hindu mythology, Garuda is more than just a mythical creature — it’s a symbol of speed, precision, and freedom. Often depicted as a powerful eagle soaring high above, Garuda is known for its ability to cover vast distances swiftly, with unwavering focus.
 
@@ -63,6 +63,7 @@ Yes, we keep it fresh! **GarudaNvim v1.3.0** is out with some amazing udpates:
     - Streamlined keybindings with **WhichKey**
     - Versatile Terminal Management with **ToggleTerm**
     - Enhanced git functionality with **Lazygit**
+    - Visual git tracking with **Gitsigns**
     - Intelligent new **Installer**
     - More **Colorschemes** so that no one feels left out
 - **Where to Find It**: [GarudaNvim Releases](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.3.0)
