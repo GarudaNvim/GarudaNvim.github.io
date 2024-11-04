@@ -45,12 +45,12 @@ Every pull request, issue resolved, and answer shared is voluntary. Respect ever
 **Note** : By participating, you're helping to make GarudaNvim a better space for all of us. Thank you for following the Code of Conduct and being a part of our community!
 
 <div class="navigation">
-    <a href="/themes" class="nav-link">
+    <a href="/releases" class="nav-link">
         <div class="nav-content">
             <span class="arrow">⬅️</span>
             <div class="nav-text left">
                 <span class="label">Previous</span>
-                <span class="page-name">Themes</span>
+                <span class="page-name">Releases</span>
             </div>
         </div>
     </a>
