@@ -1,0 +1,905 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Priyanshu Ranjan">
+      
+      
+        <link rel="canonical" href="https://garudanvim.github.io/whichkey/">
+      
+      
+        <link rel="prev" href="../keymaps/">
+      
+      
+        <link rel="next" href="../themes/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>Which-Key - GarudaNvim</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/css/fonts.css">
+    
+      <link rel="stylesheet" href="../assets/css/nav_link.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#keybindings-list" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="GarudaNvim" class="md-header__button md-logo" aria-label="GarudaNvim" data-md-component="logo">
+      
+  <img src="../assets/images/logo-dark.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            GarudaNvim
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Which-Key
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/GarudaNvim" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="GarudaNvim" class="md-nav__button md-logo" aria-label="GarudaNvim" data-md-component="logo">
+      
+  <img src="../assets/images/logo-dark.png" alt="logo">
+
+    </a>
+    GarudaNvim
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/GarudaNvim" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Features
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plugins/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Plugins
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keymaps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keymaps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Which-Key
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Which-Key
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#keybindings-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keybindings List
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Keybindings List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Shortcuts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagnostics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-files-and-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find Files and More
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terminals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Git Shortcuts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buffer-management-barbar-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Buffer Management (Barbar Plugin)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateinstall-plugins-and-language-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Update/Install Plugins and Language Extensions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-related-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup Related Shortcuts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-notes-from-the-which-key-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Notes from the Which-Key Setup
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../themes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Themes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Releases
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../codeofconduct/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#keybindings-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keybindings List
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Keybindings List">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Shortcuts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagnostics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-files-and-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find Files and More
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#terminals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Git Shortcuts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buffer-management-barbar-plugin" class="md-nav__link">
+    <span class="md-ellipsis">
+      Buffer Management (Barbar Plugin)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updateinstall-plugins-and-language-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Update/Install Plugins and Language Extensions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-related-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup Related Shortcuts
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-notes-from-the-which-key-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Notes from the Which-Key Setup
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<div>
+    <h1><span class="th-color h-font"><b>Which-Key Keybindings</b></span></h1>    
+</div>
+
+<p>Welcome to the secret stash of keybindings that revolve around everyone's favorite key—the space key! If you thought the keymaps file was all there is to GarudaNvim’s superpowers, well, think again.</p>
+<p>This is the page where we take the humble <code>space</code> key and transform it into your personal coding Swiss Army Knife. The creator decided that there’s so much the space key can do, it deserved a page all to itself. So, here we are—another chapter in the saga of making your life as a coder easier, one keybinding at a time. Yes, you’ll need some patience to explore all the hidden gems, but hey, it’s way more satisfying than scrolling through endless Stack Overflow posts (you know it’s true).  </p>
+<p>Take a deep breath, grab your coffee, and dive in—each keybinding has been placed with the precision of a seasoned developer trying to avoid a merge conflict. You might not even realize how badly you needed these shortcuts until you try them. Seriously, give them a shot. And don’t worry, the space key isn’t overloaded like your browser’s open tabs. It’s just filled with shortcuts that will make you wonder how you ever coded without them.</p>
+<h2 id="keybindings-list"><span class="sh-font tsh-color">Keybindings List</span></h2>
+<h3 id="general-shortcuts">General Shortcuts</h3>
+<ul>
+<li><code>&lt;Space&gt; e</code>: Toggle NvimTree (File Explorer)</li>
+<li><code>&lt;Space&gt; N</code>: Open a new buffer</li>
+<li><code>&lt;Space&gt; s</code>: Save the current buffer</li>
+<li><code>&lt;Space&gt; q</code>: Quit GarudaNvim</li>
+<li><code>&lt;Space&gt; w</code>: Close the current buffer</li>
+<li><code>&lt;Space&gt; f</code>: Find files using Telescope</li>
+<li><code>&lt;Space&gt; p</code>: Open recent projects</li>
+<li><code>&lt;Space&gt; t</code>: Open a floating terminal</li>
+</ul>
+<h3 id="diagnostics">Diagnostics</h3>
+<ul>
+<li><code>&lt;Space&gt; d b</code>: Show buffer diagnostics</li>
+<li><code>&lt;Space&gt; d p</code>: Show workspace diagnostics</li>
+</ul>
+<h3 id="find-files-and-more">Find Files and More</h3>
+<ul>
+<li><code>&lt;Space&gt; F a</code>: Find all files (including hidden and no-ignore files)</li>
+<li><code>&lt;Space&gt; F l</code>: Find text in files</li>
+<li><code>&lt;Space&gt; F b</code>: Find buffers</li>
+<li><code>&lt;Space&gt; F h</code>: Open help page</li>
+<li><code>&lt;Space&gt; F o</code>: Find old files</li>
+<li><code>&lt;Space&gt; F k</code>: Find file types</li>
+<li><code>&lt;Space&gt; F c</code>: Find text in the current buffer</li>
+</ul>
+<h3 id="terminals">Terminals</h3>
+<ul>
+<li><code>&lt;Space&gt; T n</code>: Open Node terminal</li>
+<li><code>&lt;Space&gt; T t</code>: Open Htop</li>
+<li><code>&lt;Space&gt; T p</code>: Open Python terminal</li>
+<li><code>&lt;Space&gt; T h</code>: Open horizontal terminal</li>
+<li><code>&lt;Space&gt; T v</code>: Open vertical terminal</li>
+</ul>
+<h3 id="git-shortcuts">Git Shortcuts</h3>
+<ul>
+<li><code>&lt;Space&gt; g s</code>: Show git status</li>
+<li><code>&lt;Space&gt; g b</code>: Show git branches</li>
+<li><code>&lt;Space&gt; g c</code>: Show git commits</li>
+<li><code>&lt;Space&gt; g f</code>: Show git files</li>
+<li><code>&lt;Space&gt; g h</code>: Show git stash</li>
+<li><code>&lt;Space&gt; g g</code>: Open Lazygit</li>
+<li><code>&lt;Space&gt; g j</code>: Move to the next git hunk</li>
+<li><code>&lt;Space&gt; g v</code>: Move to the previous git hunk</li>
+<li><code>&lt;Space&gt; g l</code>: Blame current line</li>
+<li><code>&lt;Space&gt; g p</code>: Preview the current hunk</li>
+<li><code>&lt;Space&gt; g r</code>: Reset the current hunk</li>
+<li><code>&lt;Space&gt; g R</code>: Reset the entire buffer</li>
+<li><code>&lt;Space&gt; g k</code>: Stage the current hunk</li>
+<li><code>&lt;Space&gt; g d</code>: Show diff of the current buffer with HEAD</li>
+<li><code>&lt;Space&gt; g u</code>: Undo the stage of the current hunk</li>
+</ul>
+<h3 id="buffer-management-barbar-plugin">Buffer Management (Barbar Plugin)</h3>
+<ul>
+<li><code>&lt;Space&gt; B f</code>: Move to the first buffer</li>
+<li><code>&lt;Space&gt; B l</code>: Move to the last buffer</li>
+<li><code>&lt;Space&gt; B p</code>: Pin/Unpin the buffer</li>
+<li><code>&lt;Space&gt; B t</code>: Restore the last closed buffer</li>
+<li><code>&lt;Space&gt; B s</code>: Move buffer to start</li>
+<li><code>&lt;Space&gt; B i</code>: Pick a buffer</li>
+<li><code>&lt;Space&gt; B d</code>: Delete a picked buffer</li>
+<li><code>&lt;Space&gt; B c</code>: Close all buffers except the current one</li>
+<li><code>&lt;Space&gt; B o n</code>: Order buffers by buffer number</li>
+<li><code>&lt;Space&gt; B o d</code>: Order buffers by directory</li>
+<li><code>&lt;Space&gt; B o l</code>: Order buffers by language</li>
+<li><code>&lt;Space&gt; B o w</code>: Order buffers by window number</li>
+</ul>
+<h3 id="updateinstall-plugins-and-language-extensions">Update/Install Plugins and Language Extensions</h3>
+<ul>
+<li><code>&lt;Space&gt; u l s</code>: Sync plugins (Lazy Plugin Manager)</li>
+<li><code>&lt;Space&gt; u l k</code>: Check for plugin updates</li>
+<li><code>&lt;Space&gt; u l h</code>: Open Lazy plugin help</li>
+<li><code>&lt;Space&gt; u l c</code>: Clean unused plugins</li>
+<li><code>&lt;Space&gt; u l e</code>: Check Lazy health</li>
+<li><code>&lt;Space&gt; u l l</code>: Show Lazy logs</li>
+<li><code>&lt;Space&gt; u l u</code>: Update plugins</li>
+<li><code>&lt;Space&gt; u l r</code>: Reload plugins</li>
+</ul>
+<h3 id="setup-related-shortcuts">Setup Related Shortcuts</h3>
+<ul>
+<li><code>&lt;Space&gt; z t</code>: Switch colorschemes using Telescope</li>
+<li><code>&lt;Space&gt; z h</code>: Check GarudaNvim health</li>
+</ul>
+<h2 id="additional-notes-from-the-which-key-setup"><span class="sh-font tsh-color">Additional Notes from the Which-Key Setup</span></h2>
+<p>The <strong>Which-Key</strong> plugin has been configured to provide a clear and helpful interface for key mappings, enhancing productivity with the following features:</p>
+<ul>
+<li><strong>Marks and Registers</strong>: Which-Key shows marks and registers (<code>'</code> and <code>"</code>) to make navigation and clipboard use more convenient.</li>
+<li><strong>Spelling Suggestions</strong>: When pressing <code>z=</code>, Which-Key suggests up to 20 spelling corrections.</li>
+<li><strong>Default Keybinding Help</strong>: It provides help for a variety of default Neovim keybindings such as operators (<code>d</code>, <code>y</code>, etc.), motions, and text objects.</li>
+<li><strong>Window Management</strong>: Native bindings for managing windows (e.g., <code>&lt;c-w&gt;</code> for window control) are included in the help display.</li>
+</ul>
+<p>The setup also includes scroll mapping (<code>&lt;c-d&gt;</code> to scroll down, <code>&lt;c-u&gt;</code> to scroll up), customizable window borders (<code>rounded</code> in this case), and the ability to ignore boilerplate commands (<code>&lt;cmd&gt;</code>, <code>lua</code>, etc.) to keep the interface clean.</p>
+<hr />
+<p>This should provide a complete overview of your keybindings and additional details from your <code>which-key</code> configuration in a Markdown-friendly format.</p>
+<div class="navigation">
+    <a href="/keymaps" class="nav-link">
+        <div class="nav-content">
+            <span class="arrow">⬅️</span>
+            <div class="nav-text left">
+                <span class="label">Previous</span>
+                <span class="page-name">Keymaps</span>
+            </div>
+        </div>
+    </a>
+    <a href="/themes" class="nav-link">
+        <div class="nav-content">
+            <div class="nav-text right">
+                <span class="label">Next</span>
+                <span class="page-name">Themes</span>
+            </div>
+            <span class="arrow">➡️</span>
+        </div>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://github.com/GarudaNvim"  target="_blank" rel="noopener">GarudaNvim</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/GarudaNvim/GarudaNvim.github.io" target="_blank" rel="noopener" title="Website Github" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.4c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.3c2.2 20.4 3.3 41.8 3.3 64m28.8-64h123.1c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64m112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6 78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7 10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5 11.6 26 20.9 58.2 27 94.7m-209 0H18.6c30-74.1 93.6-130.9 172-151.6-25.5 34.2-45.3 87.7-55.3 151.6M8.1 192h123.1c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64m186.6 254.6c-11.6-26-20.9-58.2-27-94.6h176.6c-6.1 36.4-15.5 68.6-27 94.6-10.5 23.6-22.2 40.7-33.5 51.5-11.2 10.7-20.5 13.9-27.8 13.9s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6-78.4-20.7-142-77.5-172-151.6zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6 25.5-34.2 45.2-87.7 55.3-151.6h116.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
