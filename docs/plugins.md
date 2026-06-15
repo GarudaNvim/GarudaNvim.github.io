@@ -132,6 +132,33 @@ Plenary is a library of common utilities used by many GarudaNvim plugins. It pro
 
 ---
 
+## <span class="sh-font tsh-color">15. nvim-treesitter</span>
+
+**Syntax Highlighting**
+
+**Repository:** [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+nvim-treesitter brings grammar-based, precise syntax highlighting to GarudaNvim. Unlike regex-based highlighting, it builds a real syntax tree for your code, resulting in far more accurate and consistent colors across all major languages.
+
+---
+
+## <span class="sh-font tsh-color">16. noice.nvim</span>
+
+**UI Overhaul**
+
+**Repository:** [folke/noice.nvim](https://github.com/folke/noice.nvim)
+Noice completely replaces the default Neovim command line, messages, and notification system with a polished floating UI. The command line appears as a centered popup, notifications are shown as non-blocking toasts, and LSP progress messages are rendered cleanly — keeping your editing surface distraction-free.
+
+---
+
+## <span class="sh-font tsh-color">17. nvim-surround</span>
+
+**Text Surrounding**
+
+**Repository:** [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround)
+nvim-surround makes it effortless to add, change, or delete surrounding characters such as brackets, quotes, and HTML tags. It works seamlessly with motions and visual selections, making text manipulation faster and more intuitive.
+
+---
+
 These plugins collectively enhance the functionality and workflow in GarudaNvim, making it a highly efficient and customizable Neovim distribution.
 
 <div class="navigation">
