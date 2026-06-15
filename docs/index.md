@@ -55,20 +55,20 @@ GarudaNvim isn’t just a Neovim config – it’s a philosophy. It’s about co
 
 ---
 
-## <span class="sh-font msh-color">Latest Version: v1.3.0</span>
+## <span class="sh-font msh-color">Latest Version: v1.4.0</span>
 
-Yes, we keep it fresh! **GarudaNvim v1.3.0** is out with some amazing udpates:
+Yes, we keep it fresh! **GarudaNvim v1.4.0** is out with some exciting updates:
 
 - **New Features**:
-    - Streamlined keybindings with **WhichKey**
-    - Versatile Terminal Management with **ToggleTerm**
-    - Enhanced git functionality with **Lazygit**
-    - Visual git tracking with **Gitsigns**
-    - Intelligent new **Installer**
-    - More **Colorschemes** so that no one feels left out
-- **Where to Find It**: [GarudaNvim Releases](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.3.0)
+    - Precise, grammar-based syntax highlighting with **nvim-treesitter**
+    - Revamped command-line and notification UI with **Noice**
+    - Effortless text surrounding with **nvim-surround**
+    - New **Doom One** colorscheme
+    - Modular **plugin structure overhaul** for easier customization
+    - **Keymap bug fixes** for a smoother navigation experience
+- **Where to Find It**: [GarudaNvim Releases](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.4.0)
 
-Because let's be honest – you didn’t really want to write all those colorscheme lines yourself, did you?
+Because let’s be honest – you didn’t really want to write all those colorscheme lines yourself, did you?
 
 ---
 

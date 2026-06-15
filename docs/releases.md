@@ -10,6 +10,21 @@ Below, you’ll find details on our current and previous releases, including ver
 
 ## <span class="sh-font tsh-color">Current Release</span>
 
+### **Version: 1.4.0**
+- **Release Date:** June 16, 2025
+- **Features:**
+    - Precise, grammar-based syntax highlighting with **nvim-treesitter**
+    - Revamped command-line and notification UI with **Noice**
+    - Effortless text surrounding with **nvim-surround**
+    - New **Doom One** colorscheme
+    - Modular **plugin structure overhaul** (dump_plugins refactored into separate files)
+    - **Keymap bug fixes** for a smoother navigation experience
+- **Link:** [GarudaNvim v1.4.0 Release Notes](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.4.0)
+
+---
+
+## <span class="sh-font tsh-color">Past Releases</span>
+
 ### **Version: 1.3.0**
 - **Release Date:** November 1, 2024
 - **Features:**
@@ -20,10 +35,6 @@ Below, you’ll find details on our current and previous releases, including ver
     - Intelligent new **Installer**
     - More **Colorschemes** so that no one feels left out
 - **Link:** [GarudaNvim v1.3.0 Release Notes](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.3.0)
-
----
-
-## <span class="sh-font tsh-color">Past Releases</span>
 
 ### **Version: 1.2.0**
 - **Release Date:** October 19, 2024
