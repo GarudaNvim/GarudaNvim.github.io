@@ -4,6 +4,30 @@
 
 Installing GarudaNvim is a breeze. Follow the steps below to get GarudaNvim up and running on your machine.
 
+## <span class="sh-font tsh-color">Supported Systems</span>
+
+GarudaNvim supports the following operating systems and their derivative distributions:
+
+| OS Family | Distributions |
+|---|---|
+| **macOS** | macOS (any recent version) |
+| **Arch** | Arch Linux, Manjaro, EndeavourOS, Garuda, CachyOS, ArcoLinux, Artix |
+| **Fedora** | Fedora, Nobara, Ultramarine, Bazzite |
+| **Ubuntu / Debian** | Ubuntu, Debian, Linux Mint, Pop!\_OS, Elementary OS, Zorin, Kali, Raspbian |
+| **CentOS / RHEL** | CentOS, RHEL, Rocky Linux, AlmaLinux, Oracle Linux |
+
+## <span class="sh-font tsh-color">Prerequisites</span>
+
+Before running the installer, make sure the following tools are available on your system:
+
+- **`curl`** — used to fetch the latest installer version
+- **`wget`** — used to download the installer script
+- **`git`** — used to clone the GarudaNvim repository
+- **Neovim >= 0.9.0** — the installer checks this automatically, but if your package manager ships an older version, install Neovim manually from [neovim/neovim releases](https://github.com/neovim/neovim/releases)
+
+!!! note
+    On macOS, `wget` is not installed by default. Install it with `brew install wget` before running the command below.
+
 ## <span class="sh-font tsh-color">Installation Command</span>
 
 Run the following command to install GarudaNvim on your system:
