@@ -1,6 +1,6 @@
 # GarudaNvim Website - garudanvim.github.io
 
-Welcome to the GarudaNvim website repository! This repository hosts the documentation and website for GarudaNvim, a custom Neovim configuration designed to enhance your coding experience on macOS. The website provides users with comprehensive guides, features, and installation instructions.
+Welcome to the GarudaNvim website repository! This repository hosts the documentation and website for GarudaNvim, a custom Neovim configuration designed to enhance your coding experience on macOS and Linux. The website provides users with comprehensive guides, features, and installation instructions.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -18,9 +18,6 @@ This repository serves as the online documentation and resource hub for users to
 
 ## Features
 
-- **Comprehensive Documentation**: Detailed guides on installation, configuration, and usage.
-- **Keymaps Page**: Extensive information on keybindings to enhance navigation and productivity.
-- **Installation Instructions**: Step-by-step instructions to get GarudaNvim up and running quickly.
 - **Dark Mode Support**: A modern and visually appealing theme with dark mode toggle for comfortable coding at any time.
 - **Search Functionality**: Easily find the information you need with a built-in search feature.
 - **Built with MkDocs Material**: The website leverages the MkDocs Material theme, known for its elegant design and user-friendly navigation, ensuring a seamless experience for users.
@@ -52,11 +49,13 @@ To set up the GarudaNvim website locally, follow these steps:
 The GarudaNvim website provides a wealth of information. Here are some of the main sections:
 
 - **Home**: An introduction to GarudaNvim and its purpose.
+- **Installation**: Step-by-step guidance for installing GarudaNvim, including supported systems and prerequisites.
 - **Features**: A detailed list of what GarudaNvim offers.
-- **Installation**: Step-by-step guidance for installing GarudaNvim.
-- **Configuration**: Tips and tricks for customizing your Neovim setup.
+- **Plugins**: Descriptions of every plugin bundled with GarudaNvim.
 - **Keymaps**: A detailed list of keybindings for enhanced navigation and productivity.
+- **Which-Key**: Full reference for all Space-key bindings.
 - **Themes**: Options and configurations for customizing the appearance of Neovim.
+- **Releases**: Changelog and release notes for every GarudaNvim version.
 
 ## Contributing
 
