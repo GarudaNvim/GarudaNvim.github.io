@@ -81,9 +81,20 @@ Take a deep breath, grab your coffee, and dive in—each keybinding has been pla
 - `<Space> u l u`: Update plugins
 - `<Space> u l r`: Reload plugins
 
+### Treesitter
+- `<Space> u t i`: Show Treesitter install info
+- `<Space> u t s`: Install parsers (sync)
+- `<Space> u t u`: Update all parsers
+- `<Space> u t y`: Update parsers (sync)
+- `<Space> u t m`: Show Treesitter module info
+- `<Space> u t a`: Toggle syntax highlighting
+- `<Space> u t b`: Toggle indentation
+- `<Space> u t c`: Toggle incremental selection
+
 ### Setup Related Shortcuts
 - `<Space> z t`: Switch colorschemes using Telescope
 - `<Space> z h`: Check GarudaNvim health
+- `<Space> z c`: Collapse NvimTree
 
 ## <span class="sh-font tsh-color">Additional Notes from the Which-Key Setup</span>
 
