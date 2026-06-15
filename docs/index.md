@@ -91,7 +91,7 @@ Big thanks to [Neovim](https://github.com/neovim/neovim) for making terminal-bas
 Happy Coding with GarudaNvim 💻 </br>
 Welcome to the Cult (umm, I meant Club :P)
 
-P.S. – This project is the brainchild of **Priyanshu Ranjan**, a final-year student at **IIT Kharagpur**, and he’s poured his heart (and far too many late-night hours) into it.
+P.S. – This project is the brainchild of **Priyanshu Ranjan**, when he was a final-year student at **IIT Kharagpur**, and he’s poured his heart (and far too many late-night hours) into it.
 
 <div class="navigation index">
     <a href="/installation" class="nav-link">
