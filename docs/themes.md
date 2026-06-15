@@ -9,7 +9,7 @@ GarudaNvim allows you to seamlessly switch themes and customize the look of your
 ## <span class="sh-font tsh-color">Default Theme</span>
 **Onedarkpro**: A sleek dark theme that enhances code visibility.
 
-Note - Selected and configured by the author. Feel free to change it at `~/.config/nvim/lua/graudanvim/plugin_config/color_config/init.lua`
+Note - Selected and configured by the author. Feel free to change it at `~/.config/nvim/lua/garudanvim/plugin_config/color_config/init.lua`
 
 ## <span class="sh-font tsh-color">Available Themes</span>
 
@@ -43,7 +43,8 @@ Beyond the built-in options, GarudaNvim brings additional color-rich themes that
 - **Tokyonight**: Inspired by Tokyo’s nightlife, moody and dark.
 - **Tokyodark**: Deep blacks and blues, high contrast.
 - **Catppuccin**: Warm pastels, cozy and relaxing.
-- **Nightfox**: Dark themes with harmonious color accents. 
+- **Nightfox**: Dark themes with harmonious color accents.
+- **Doom One**: High-contrast dark theme inspired by Doom Emacs, easy on the eyes for long sessions.
 
 ## <span class="sh-font tsh-color">Switching Themes</span>
 
