@@ -71,19 +71,18 @@ Welcome to normal mode, where the magic happens, and where most of your day will
     ```
 
 - **Quick Actions**: Be the action hero of your Neovim setup.
-    - `<Esc>` or `q`: Clear search highlights. 
-    - `<C-c>`: Copy the entire file content to the system clipboard. 
-    - `d`: Delete without yanking (yes, you can safely delete now).
-    - `<Space>e`: Toggle the NvimTree file explorer. 
+    - `<Esc>`: Clear search highlights.
+    - `q`: Clear search highlights and dismiss Noice notifications.
+    - `<C-c>`: Copy the entire file content to the system clipboard.
     ```lua
     map("n", "<C-c>", "<cmd> %y+ <CR><CR>", opts)
     ```
 
 - **Go to Beginning and End of Line**: Quick shortcuts for lazy cursor movers.
-    - `<C-i>`: Go to the beginning of the line.
-    - `<C-j>`: Go to the end of the line.
+    - `<C-n>`: Go to the beginning of the line.
+    - `<C-m>`: Go to the end of the line.
     ```lua
-    map("n", "<C-i>", "0", opts)
+    map("n", "<C-n>", "0", opts)
     ```
 
 ---
@@ -107,10 +106,10 @@ Insert mode: for the brave, the bold, and those who actually need to type things
     ```
 
 - **Go to Beginning and End of Line**: Quick shortcuts for lazy cursor movers inside insert mode.
-    - `<C-i>`: Go to the beginning of the line.
-    - `<C-j>`: Go to the end of the line.
+    - `<C-n>`: Go to the beginning of the line.
+    - `<C-m>`: Go to the end of the line.
     ```lua
-    map("i", "<C-i>", "<ESC>^i", opts) -- beginning of line
+    map("i", "<C-n>", "<ESC>^i", opts) -- beginning of line
     ```
 
 ---
@@ -138,9 +137,21 @@ Visual mode: where selection happens, and text manipulation gets real.
     map("v", "p", '"_dP', opts)
     ```
 
+- **Delete Without Yanking**: Delete selected text without overwriting the clipboard.
+    ```lua
+    map("v", "d", '"_d', opts)
+    ```
+
 - **Replacement of Texts**: Replaces the selected text via `<C-r>` with a prompt for the new text (global, with confirmation for each instance).
     ```lua
     map("v", "<C-r>", '"hy:%s/<C-r>h//gc<left><left><left>', opts)
+    ```
+
+- **Go to Beginning and End of Line**: Works in visual mode too.
+    - `<C-n>`: Go to the beginning of the line.
+    - `<C-m>`: Go to the end of the line.
+    ```lua
+    map("v", "<C-n>", "0", opts)
     ```
 
 ---
