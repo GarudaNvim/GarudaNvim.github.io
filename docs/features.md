@@ -6,36 +6,36 @@ GarudaNvim is more than just another Neovim setup – it’s a finely tuned mach
 
 ---
 
-## <span class=”sh-font tsh-color”>Effortless Installation</span>
+## <span class="sh-font tsh-color">Effortless Installation</span>
 - **Automatic Setup, Minimal Hassle:** Our installer handles everything from OS detection to Neovim version validation to plugin setup, leaving you more time to focus on your code and less time wondering why things don’t work.
 - **Cross-Platform Magic:** Whether you’re on macOS, Arch, Fedora, Ubuntu, Debian, CentOS/RHEL, or any of their derivative distributions (Manjaro, Mint, Pop!\_OS, Rocky Linux, and more), GarudaNvim’s installer has you covered. One run, and it’s all set up – no more wrestling with dependencies.
 
-## <span class=”sh-font tsh-color”>Productivity Powerhouse</span>
+## <span class="sh-font tsh-color">Productivity Powerhouse</span>
 - **Shortcut Wizardry:** With GarudaNvim’s custom keymaps, you’ll forget what “slow” feels like. Jump between files, split windows, resize buffers – it’s all a keystroke away. Less typing, more coding.
 - **Which-Key Guidance:** With Which-Key as your guide, every possible keybinding is right at your fingertips. No more `<leader>` + ??? guessing games – just press, discover, and power up.
 - **Text Surrounding with nvim-surround:** Add, change, or delete surrounding characters (brackets, quotes, tags) with minimal keystrokes. Works seamlessly with motions and visual selections.
 
-## <span class=”sh-font tsh-color”>Enhanced Navigation</span>
+## <span class="sh-font tsh-color">Enhanced Navigation</span>
 - **Telescope for Search-Anything:** Need to find a file, buffer, or command? Telescope integration lets you glide through your project faster than a Ctrl+F on steroids. Say goodbye to scrolling aimlessly.
 - **NvimTree for File Management:** A built-in, intuitive file explorer keeps all your files accessible with a simple shortcut. Navigate like a pro without ever leaving Neovim’s window.
 - **Treesitter for Syntax-Aware Editing:** Grammar-based syntax highlighting and code-aware navigation powered by **nvim-treesitter**. Far more accurate than regex highlighting, across all major languages.
 - **Alpha Dashboard:** A clean, welcoming dashboard greets you on startup with quick access to recent files and project shortcuts.
 
-## <span class=”sh-font tsh-color”>Customizable UI Elements</span>
+## <span class="sh-font tsh-color">Customizable UI Elements</span>
 - **Polished Status and Tab Lines:** With **Lualine** for the statusline and **Barbar** for the tabline, you get a sleek, customizable interface that keeps tabs on your workflow without becoming a cluttered mess.
 - **Revamped Command Line and Notifications with Noice:** The command line floats as a centered popup, notifications appear as non-blocking toasts, and LSP messages are rendered with clarity — keeping your editing surface clean and distraction-free.
 - **Eye-Friendly Highlights:** Each highlight color and cursorline has been meticulously chosen to ensure comfort, visibility, and minimal eye strain – because staring at code all day is already hard enough.
 
-## <span class=”sh-font tsh-color”>Terminal & Git Integration</span>
+## <span class="sh-font tsh-color">Terminal & Git Integration</span>
 - **ToggleTerm for In-Editor Terminals:** Spin up and toggle multiple terminal instances without leaving Neovim. Pre-configured windows for node, python, htop, and lazygit are ready out of the box.
 - **Lazygit for Visual Git Management:** Commit, stash, reset, diff, and browse your full commit history — all from inside Neovim via the Lazygit TUI.
 - **Gitsigns for Real-Time Git Feedback:** Added, changed, and deleted lines are marked in the gutter as you type. Blame annotations and staged change indicators are a keypress away.
 
-## <span class=”sh-font tsh-color”>Multiple Themes Built In</span>
+## <span class="sh-font tsh-color">Multiple Themes Built In</span>
 - **Color Schemes for Every Mood:** Choose from **Tokyo Night**, **Tokyo Dark**, **Nordic**, **Dracula**, **Catppuccin**, **Nightfox**, **OneDark Pro**, **Doom One**, and more — match your Neovim vibes with your monitor brightness (or your mood, no judgment here).
 - **Instant Theme Preview:** Press `Space + z + t` to browse and switch colorschemes from a table view without touching a config file.
 
-## <span class=”sh-font tsh-color”>Seamless Plugin Management</span>
+## <span class="sh-font tsh-color">Seamless Plugin Management</span>
 - **Lazy for Effortless Plugin Control:** Why “install manually” when you can “install lazily”? With the **Lazy** plugin manager, adding, updating, or removing plugins is as effortless as a lazy Sunday.
 - **Modular Plugin Structure:** Plugins are organized across separate files by category, making it easy to find, add, or remove individual plugins without scrolling through one monolithic list.
 - **Curated Essentials:** Hand-picked plugins for maximum productivity – from **Onedarkpro** for a pleasing default theme to **Telescope** for instant file searching. Only the best make the cut.
