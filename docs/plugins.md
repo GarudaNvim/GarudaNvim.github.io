@@ -159,6 +159,71 @@ nvim-surround makes it effortless to add, change, or delete surrounding characte
 
 ---
 
+---
+
+## <span class="sh-font tsh-color">18. mason.nvim</span>
+
+**LSP Server Installer**
+
+**Repository:** [mason-org/mason.nvim](https://github.com/mason-org/mason.nvim)
+Mason is the package manager for Neovim language servers, formatters, and linters. GarudaNvim uses Mason 2.0 to automatically install and manage all LSP servers and formatting tools on first launch, with a polished UI accessible via `<Space> u m o`.
+
+---
+
+## <span class="sh-font tsh-color">19. mason-lspconfig.nvim</span>
+
+**LSP Bridge**
+
+**Repository:** [mason-org/mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim)
+Bridges Mason and nvim-lspconfig, ensuring that servers installed through Mason are correctly wired up to Neovim's LSP client. GarudaNvim uses the v2 API with per-server manual setup for full control over each server's configuration.
+
+---
+
+## <span class="sh-font tsh-color">20. mason-tool-installer.nvim</span>
+
+**Formatter Auto-Installer**
+
+**Repository:** [WhoIsSethDaniel/mason-tool-installer.nvim](https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim)
+Automatically installs all configured formatters (clang-format, ruff, google-java-format, goimports, prettier, stylua) on startup, so formatting works out of the box without any manual setup.
+
+---
+
+## <span class="sh-font tsh-color">21. nvim-lspconfig</span>
+
+**LSP Configuration**
+
+**Repository:** [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+The official collection of LSP server configurations. GarudaNvim uses it to configure five language servers with sensible defaults: clangd (C/C++), pyright (Python), jdtls (Java), gopls (Go), and ts_ls (JavaScript/TypeScript/JSX/TSX).
+
+---
+
+## <span class="sh-font tsh-color">22. blink.cmp</span>
+
+**Code Completion**
+
+**Repository:** [saghen/blink.cmp](https://github.com/saghen/blink.cmp)
+A fast, modern completion engine that replaces nvim-cmp. Sources include LSP, path, snippets (via friendly-snippets), and buffer text. Features rounded popup menus, inline signature help, and smooth `<Tab>`/`<S-Tab>` navigation — active only in insert and command-line mode to stay out of the way otherwise.
+
+---
+
+## <span class="sh-font tsh-color">23. conform.nvim</span>
+
+**Format on Save**
+
+**Repository:** [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
+The single source of truth for code formatting in GarudaNvim. Runs the appropriate formatter on save for every supported language (C/C++, Python, Java, Go, JS/TS/JSX/TSX, Lua) with a 3-second timeout. LSP formatting providers are disabled to prevent double-formatting conflicts.
+
+---
+
+## <span class="sh-font tsh-color">24. claudecode.nvim</span>
+
+**Claude AI Integration**
+
+**Repository:** [coder/claudecode.nvim](https://github.com/coder/claudecode.nvim)
+Integrates the Claude AI coding assistant as a native terminal panel inside GarudaNvim. Toggle sessions, send buffers or visual selections to Claude, select models, and accept or deny Claude's diff suggestions — all without leaving the editor. Accessible under `<Space> a`.
+
+---
+
 These plugins collectively enhance the functionality and workflow in GarudaNvim, making it a highly efficient and customizable Neovim distribution.
 
 <div class="navigation">

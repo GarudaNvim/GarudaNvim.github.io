@@ -55,18 +55,18 @@ GarudaNvim isn’t just a Neovim config – it’s a philosophy. It’s about co
 
 ---
 
-## <span class="sh-font msh-color">Latest Version: v1.4.0</span>
+## <span class="sh-font msh-color">Latest Version: v1.5.0</span>
 
-Yes, we keep it fresh! **GarudaNvim v1.4.0** is out with some exciting updates:
+Yes, we keep it fresh! **GarudaNvim v1.5.0** is out — our biggest release yet:
 
 - **New Features**:
-    - Precise, grammar-based syntax highlighting with **nvim-treesitter**
-    - Revamped command-line and notification UI with **Noice**
-    - Effortless text surrounding with **nvim-surround**
-    - New **Doom One** colorscheme
-    - Modular **plugin structure overhaul** for easier customization
-    - **Keymap bug fixes** for a smoother navigation experience
-- **Where to Find It**: [GarudaNvim Releases](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.4.0)
+    - Full **IDE-grade LSP support**: clangd, pyright, jdtls, gopls, ts_ls via Mason 2.0
+    - Intelligent code **completion** with **blink.cmp** (LSP, snippets, path, buffer sources)
+    - **Format on save** for C/C++, Python, Java, Go, JS/TS/JSX/TSX, and Lua via **conform.nvim**
+    - **Claude Code AI integration** — toggle an AI coding assistant directly inside Neovim
+    - **GarudaNvim self-updater** — update to the latest stable release or bleeding-edge commit from inside the editor (`<Space>Z`)
+    - Minimum Neovim version bumped to **0.10.0**
+- **Where to Find It**: [GarudaNvim Releases](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.5.0)
 
 Because let’s be honest – you didn’t really want to write all those colorscheme lines yourself, did you?
 

@@ -23,7 +23,7 @@ Before running the installer, make sure the following tools are available on you
 - **`curl`** — used to fetch the latest installer version
 - **`wget`** — used to download the installer script
 - **`git`** — used to clone the GarudaNvim repository
-- **Neovim >= 0.9.0** — the installer checks this automatically, but if your package manager ships an older version, install Neovim manually from [neovim/neovim releases](https://github.com/neovim/neovim/releases)
+- **Neovim >= 0.10.0** — the installer checks this automatically, but if your package manager ships an older version, install Neovim manually from [neovim/neovim releases](https://github.com/neovim/neovim/releases)
 
 !!! note
     On macOS, `wget` is not installed by default. Install it with `brew install wget` before running the command below.

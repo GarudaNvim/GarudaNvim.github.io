@@ -10,6 +10,21 @@ Below, you’ll find details on our current and previous releases, including ver
 
 ## <span class="sh-font tsh-color">Current Release</span>
 
+### **Version: 1.5.0**
+- **Release Date:** June 17, 2026
+- **Features:**
+    - Full **LSP support**: clangd (C/C++), pyright (Python), jdtls (Java), gopls (Go), ts_ls (JS/TS/JSX/TSX) via **Mason 2.0**
+    - Intelligent code **completion** with **blink.cmp** (LSP, snippets, path, buffer sources)
+    - **Format on save** for all supported languages via **conform.nvim**
+    - **Claude Code AI integration** — AI coding assistant as a native panel inside Neovim
+    - **GarudaNvim self-updater** (`<Space> Z`) — update to stable or bleeding-edge from inside the editor
+    - Minimum Neovim version bumped to **0.10.0**
+- **Link:** [GarudaNvim v1.5.0 Release Notes](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.5.0)
+
+---
+
+## <span class="sh-font tsh-color">Past Releases</span>
+
 ### **Version: 1.4.0**
 - **Release Date:** June 16, 2025
 - **Features:**
@@ -20,10 +35,6 @@ Below, you’ll find details on our current and previous releases, including ver
     - Modular **plugin structure overhaul** (dump_plugins refactored into separate files)
     - **Keymap bug fixes** for a smoother navigation experience
 - **Link:** [GarudaNvim v1.4.0 Release Notes](https://github.com/GarudaNvim/GarudaNvim/releases/tag/v1.4.0)
-
----
-
-## <span class="sh-font tsh-color">Past Releases</span>
 
 ### **Version: 1.3.0**
 - **Release Date:** November 1, 2024

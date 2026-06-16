@@ -23,6 +23,9 @@ Take a deep breath, grab your coffee, and dive in—each keybinding has been pla
 ### Diagnostics
 - `<Space> d b`: Show buffer diagnostics
 - `<Space> d p`: Show workspace diagnostics
+- `<Space> d n`: Jump to next diagnostic
+- `<Space> d v`: Jump to previous diagnostic
+- `<Space> d o`: Open diagnostic float
 
 ### Find Files and More
 - `<Space> F a`: Find all files (including hidden and no-ignore files)
@@ -91,10 +94,51 @@ Take a deep breath, grab your coffee, and dive in—each keybinding has been pla
 - `<Space> u t b`: Toggle indentation
 - `<Space> u t c`: Toggle incremental selection
 
+### Mason — LSP Server Manager
+- `<Space> u m o`: Open Mason UI
+- `<Space> u m u`: Update Mason registries
+- `<Space> u m t`: Install all configured tools
+- `<Space> u m T`: Update all installed tools
+
 ### Setup Related Shortcuts
 - `<Space> z t`: Switch colorschemes using Telescope
 - `<Space> z h`: Check GarudaNvim health
 - `<Space> z c`: Collapse NvimTree
+
+### GarudaNvim Distro Management
+- `<Space> Z v`: Show version info (current, latest stable, remote HEAD)
+- `<Space> Z k`: Check for updates (silent notification)
+- `<Space> Z u`: Update to latest stable release
+- `<Space> Z U`: Update to latest commit on main (bleeding edge)
+
+### LSP
+- `<Space> l a`: Code action
+- `<Space> l d`: Go to definition (Telescope)
+- `<Space> l D`: Go to declaration
+- `<Space> l f`: Format buffer
+- `<Space> l h`: Hover docs
+- `<Space> l i`: LSP info
+- `<Space> l n`: Rename symbol
+- `<Space> l r`: References (Telescope)
+- `<Space> l s`: Signature help
+- `<Space> l S`: Stop LSP
+- `<Space> l R`: Restart LSP
+- `<Space> l t`: Type definition (Telescope)
+- `<Space> l y`: Document symbols (Telescope)
+- `<Space> l w`: Workspace symbols (Telescope)
+
+### Claude Code AI
+- `<Space> a c`: Toggle Claude panel
+- `<Space> a f`: Focus Claude panel
+- `<Space> a r`: Resume last session
+- `<Space> a C`: Continue last session
+- `<Space> a m`: Select model
+- `<Space> a b`: Add current buffer to Claude
+- `<Space> a a`: Accept Claude diff
+- `<Space> a d`: Deny Claude diff
+
+### Claude Code AI (Visual Mode)
+- `<Space> a s`: Send selection to Claude
 
 ## <span class="sh-font tsh-color">Additional Notes from the Which-Key Setup</span>
 
