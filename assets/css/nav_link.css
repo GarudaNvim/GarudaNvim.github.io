@@ -1,0 +1,94 @@
+/*for navigation links in the bottom of the page*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.index {
+    justify-content: flex-end; /* Align items to the right */
+    margin-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0.6rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.5rem;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #3B3B3B;
+    width: 48%;
+}
+[data-md-color-scheme="default"] .nav-link {  /* Light mode color */
+    border-color: #C5C5C5;
+}
+
+.nav-link:hover {
+    border-color: white;
+}
+[data-md-color-scheme="default"] .nav-link:hover {  /* Light mode color */
+    border-color: black;
+}
+
+.index-right {
+    margin-right: 0;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+.nav-text {
+    display: flex;
+    flex-direction: column; /* or use block display on spans */
+    color: white;
+}
+[data-md-color-scheme="default"] .nav-text {  /* Light mode color */
+    color: black;
+}
+
+.nav-link:hover .nav-text span{
+    color: #ED7377;
+}
+[data-md-color-scheme="default"] .nav-link:hover .nav-text span{  /* Light mode color */
+    color: #E32227;
+}
+
+.left {
+    align-items: flex-start; /* Align items to the left */
+    text-align: left; /* Optional: aligns text to the left */
+}
+
+.right {
+    justify-content: flex-end; /* Align items to the right */
+    width: 100%; /* Ensure the container takes the full width */
+    text-align: right; /* Align text to the right */
+}
+
+.left .label,
+.left .page-name {
+    display: block;
+    padding-left: 17px;
+}
+
+.right .label,
+.right .page-name {
+    display: block; /* Force items onto separate lines */
+    padding-right: 17px;
+
+}
+
+/*Font sizes*/
+.arrow {
+    font-size: 1.1rem;
+}
+
+.label {
+    font-size: 0.8rem;
+}
+
+.page-name {
+    font-size: 1.1rem;
+}
