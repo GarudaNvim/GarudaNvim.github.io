@@ -93,6 +93,42 @@ Below, you’ll find details on our current and previous releases, including ver
 
 ---
 
+## <span class="sh-font tsh-color">Installer Releases</span>
+
+The installer is versioned separately from GarudaNvim. The install command always fetches the latest installer release automatically.
+
+### **Version: 0.6.0** — Current
+- **Release Date:** June 17, 2026
+- **Changes:**
+    - Minimum Neovim version bumped from **0.9.0** to **0.10.0**, matching GarudaNvim v1.5.0 requirements
+- **Link:** [Installer v0.6.0 Release Notes](https://github.com/GarudaNvim/Installer/releases/tag/v0.6.0)
+
+### **Version: 0.5.0**
+- **Release Date:** June 15, 2026
+- **Changes:**
+    - Fixed shell compatibility (`bash` shebang instead of `sh`)
+    - Fixed OS detection for derivative distros via `$ID_LIKE`
+    - Fixed dangerous `pacman -Sy` on Arch Linux
+    - Added Neovim minimum version check (>= 0.9.0)
+    - Added warnings for RHEL/CentOS dependency gaps (ripgrep, lazygit)
+    - Fixed `git describe` crash on repos with no tags
+    - Fixed font detection to use glob instead of exact filename
+- **Link:** [Installer v0.5.0 Release Notes](https://github.com/GarudaNvim/Installer/releases/tag/v0.5.0)
+
+### **Version: 0.4.0**
+- **Link:** [Installer v0.4.0 Release Notes](https://github.com/GarudaNvim/Installer/releases/tag/v0.4.0)
+
+### **Version: 0.3.0**
+- **Link:** [Installer v0.3.0 Release Notes](https://github.com/GarudaNvim/Installer/releases/tag/v0.3.0)
+
+### **Version: 0.2.0**
+- **Link:** [Installer v0.2.0 Release Notes](https://github.com/GarudaNvim/Installer/releases/tag/v0.2.0)
+
+### **Version: 0.1.0 - Initial Release**
+- **Link:** [Installer v0.1.0 Release Notes](https://github.com/GarudaNvim/Installer/releases/tag/v0.1.0)
+
+---
+
 Keep an eye on this page for more updates, as GarudaNvim continues to roll out enhancements and new features with each release!
 
 <div class="navigation">
